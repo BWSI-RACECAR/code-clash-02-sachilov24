@@ -34,14 +34,12 @@ class Solution:
             
             #TODO: Write code below to returnn an int with the solution to the prompt.
             pass
-def digitdecrypt(self, num):
+    def digitdecrypt(self, num):
 
      while num > 9:
             digit_list = [int(i) for i in str(num)]
             num =sum(digit_list)
-
-
-        return num
+            return num
 
  
 def main():
