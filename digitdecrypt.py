@@ -34,21 +34,14 @@ class Solution:
             
             #TODO: Write code below to returnn an int with the solution to the prompt.
             pass
-        def find_number(x):
-    Decode = ''
-    count = ''
-    for i in x:
-        
-        if i.isdigit():
-            #append to count
-            count += i
-        else i: 
-   
-            decode += i * int(count)
-            count = '' 
-            
-         
-    return decode
+def digitdecrypt(self, num):
+
+     while num > 9:
+            digit_list = [int(i) for i in str(num)]
+            num =sum(digit_list)
+
+
+        return num
 
  
 def main():
